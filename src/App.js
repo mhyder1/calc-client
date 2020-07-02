@@ -13,6 +13,10 @@ class App extends Component {
       input: ""
     }
   }
+
+  addToInput = val => {
+    this.setState({input: this.state.input + val});
+  }
   render() {
     return (
     <div className="app">
