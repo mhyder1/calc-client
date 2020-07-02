@@ -9,7 +9,10 @@ class App extends Component {
     <div className="app">
       <div className="calc-wrapper">
         <div className="row">
-
+          <Button>7</Button>
+          <Button>8</Button>
+          <Button>9</Button>
+          <Button>/</Button>
         </div>
       </div>
     </div>
