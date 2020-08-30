@@ -15,3 +15,8 @@
   display: flex;
   width: 100%;
 }
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+}
